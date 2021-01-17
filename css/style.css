@@ -55,7 +55,7 @@ header {
 .me-img {
   max-width: 25%;
   float: right;
-  margin-top: -4.7em;
+  margin-top: -5em;
 }
 
 footer {
@@ -65,10 +65,10 @@ footer {
   justify-items: center;
   text-align: center;
   padding: 1em;
-  margin-top: 1em;
+  margin-top: 3em;
 }
 
-#byui-link, #date {
+#byui-link, #date, #year {
   color: white;
   font-size: 1em;
   font-family: Esteban, Georgia, serif;
