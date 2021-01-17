@@ -1,0 +1,20 @@
+@media only screen and (min-width: 32.5em) { 
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    header, footer, .me-img {
+        border-radius: 10px;
+    }
+
+    .me-img {
+        max-width: 25%;
+        float: right;
+        margin-top: -5em;
+    }
+
+} 
