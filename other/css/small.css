@@ -1,7 +1,7 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Esteban&family=Montserrat&display=swap');*/
 
 #content {
-  max-width: 750px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -40,11 +40,8 @@ main {
   padding: 1em;
 }
 
-header, footer {
-  background-color: #0D161C;
-}
-
 header {
+  background-color: #292929;
   align-items: center;
   justify-items: center;
   text-align: center;
@@ -52,16 +49,16 @@ header {
 }
 
 .me-img {
-  height: 300px;
+  height: auto;
 }
 
 footer {
+  background-color: #292929;
   color: #FFFFFF;
   align-items: center;
   justify-items: center;
   text-align: center;
   padding: 1em;
-  margin-top: 4em;
   
 }
 
