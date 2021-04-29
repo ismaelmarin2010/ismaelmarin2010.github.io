@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang= "en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Ismael Marin's portal for posting the assignments from the WDD 230 course">
+		<title>Accountant Smart</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Noto+Serif+JP:wght@200&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">    
+		<link rel="stylesheet" href="css/small.css">
+		<link rel="stylesheet" href="css/medium.css">
+	</head>
+	
+<body>
+	<div id="content">
+		<header>
+		</header>
+		<main>
+			<h2 id="main-box1">Welcome to Accountant Smart</h2>
+			<p id="main-box2">Our site is currently hiding while we prepare to make
+			some changes. You can still reach us via phone or email.</p>
+			<p id="main-box3">info@accountantsmart.net</p>
+			<p  id="main-box4">877-765-9838 ext. 700</p>
+		</main>
+		<footer>
+			<p id="footer-box1">Stay up to date. Subscribe to our slightly-more-than-quarterly newsletter.</p>
+			<form id="footer-box2" method="post" autocomplete="off" name="google-sheet">
+				<input id="fName" type="text" name="FirstName" placeholder="First name" value="" required=""/>
+				<input id="lName" type="text" name="LastName" placeholder="Last name" value="" required=""/>
+				<input id="email" type="email" name="Email" placeholder="Email address" value="" required=""/>
+				<input id="submit" type="submit" name="submit" value="Sign Up" />
+			</form>
+
+				<script>
+					const scriptURL = 'https://script.google.com/macros/s/AKfycbwu3JgGfCOSi5aJuEW7QZhZkm6kgIyWJOh1hUchsY-K2BgX11w/exec'
+					const form = document.forms['google-sheet']
+					
+					form.addEventListener('submit', e => {
+						e.preventDefault()
+						fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+							.then(response => alert("Thanks for subscribing! We will send you news soon..."))
+							.catch(error => console.error('Error!', error.message))
+					})
+					
+				</script>
+
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		</footer>
+	</div>
+</body>
+</html>

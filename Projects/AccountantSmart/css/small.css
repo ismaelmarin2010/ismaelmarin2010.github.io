@@ -1,0 +1,189 @@
+/*-------------- CONTENT ELEMENTS --------------*/
+
+#content {
+	margin: 0 auto;
+	display: grid;
+	grid-template-rows: 8px 5fr 4fr;
+    grid-gap: 1em;
+}
+
+header {
+	background-color: #E09164;
+	grid-row: 1 / 2;
+}
+
+main {
+	background-color: #FFFFFF;
+	color: #272B31;
+	grid-row: 2 / 3;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(6, 0.2fr);
+	grid-gap: 1em;
+	padding: 2em;
+}
+
+footer {
+	background-color: #4F92AD;
+	color: #FFFFFF;
+	grid-row: 3 / 4;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 1em;
+	padding: 2em;
+}
+
+/*----------------------------------------------*/
+
+/*---------- MAIN AND FOOTER ELEMENTS ----------*/
+
+#main-box1 {
+	margin-top: 0px;
+	font-family: Montserrat, Verdana, sans-serif;
+	font-size: 1.95em;
+	letter-spacing: 0.04em;
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	justify-self: stretch;
+	align-self: end;
+}
+
+#main-box2 {
+	grid-column: 1 / 2;
+	grid-row: 3 / 4;
+	justify-self: stretch;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: "Noto Serif JP", Georgia, serif;
+	font-size: 1.4em;
+    line-height: 1.4em;
+	letter-spacing: 0em;
+}
+
+#main-box3 {
+	grid-column: 1 / 2;
+	grid-row: 4 / 5;
+	justify-self: stretch;
+	align-self: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: "Noto Serif JP", Georgia, serif;
+	font-size: 1.4em;
+    line-height: 1.4em;
+	letter-spacing: 0em;
+}
+
+#main-box4 {
+	grid-column: 1 / 2;
+	grid-row: 5 / 6;
+	justify-self: stretch;
+	font-family: "Noto Serif JP", Georgia, serif;
+	font-size: 1.4em;
+    line-height: 1.4em;
+	letter-spacing: 0em;
+	margin-top: -0.3em;
+	margin-bottom: -0.3em;
+}
+
+#footer-box1 {
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+	justify-self: stretch;
+	font-family: Montserrat, Verdana, sans-serif;
+	font-size: 1.6em;
+	letter-spacing: 0.04em;
+	position: relative;
+	animation-duration: 2s;  
+	animation-delay: 1.5s;
+	animation-fill-mode: both;
+	animation-name: footer;
+}
+
+#footer-box2 {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	justify-self: stretch;
+	font-family: Montserrat, Verdana, sans-serif;
+	font-size: 1.6em;
+	letter-spacing: 0.04em;
+	display:grid;
+	grid-template-rows: repeat(4, 2em);
+	grid-gap: 1em;
+	position: relative;
+	animation-duration: 2s;  
+	animation-delay: 1.5s;
+	animation-fill-mode: both;
+	animation-name: footer;
+}
+
+/*--------------- ANIMATING MAIN ---------------*/
+
+#main-box1 {
+	animation-name: main-box1;
+	position: relative;
+	animation-duration: 2s;  
+	animation-delay: 0s;
+	animation-fill-mode: both;
+}
+
+#main-box2, #main-box3, #main-box4 {
+	animation-name: main-box2to4;
+	animation-delay: 1s;
+	position: relative;
+	animation-duration: 2s;  
+	animation-delay: 0s;
+	animation-fill-mode: both;
+}
+
+@keyframes main-box1 {
+  from {left:200px; color: #FFFFFF;}
+  to {left: 0px; color: #272B31;}
+}
+
+@keyframes main-box2to4 {
+  from {right:200px; color: #FFFFFF;}
+  to {right: 0px; color: #272B31;}
+}
+
+/*-------------- ANIMATING FOOTER --------------*/
+
+@keyframes footer {
+	from {color: #4F92AD;}
+	to {color: #FFFFFF;}
+}
+
+/*----------- GIVIN FORM TO FORMS --------------*/
+
+#fName {
+	grid-row: 1 / 2;
+	width: 95%;
+}
+
+#lName {
+	grid-row: 2 / 3;
+	width: 95%;	
+}
+
+#email {
+	grid-row: 3 / 4;
+	width: 95%;	
+}
+
+#submit {
+	grid-row: 4 / 5;
+	width: 80%;
+	background-color: #272B31;
+	color: white;
+	padding: 0.2em;
+	border: 2px solid #272B31;
+	border-radius: 25px;
+}
+
+input {
+	padding: 0.3em;
+	border: 2px solid white;
+	border-radius: 4px;
+	font-size: 0.9em;
+}
+
+/*----------------------------------------------*/
