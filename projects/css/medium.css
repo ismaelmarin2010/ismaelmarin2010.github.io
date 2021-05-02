@@ -1,0 +1,12 @@
+@media only screen and (min-width: 32.5em) { 
+
+    header, footer, .me-img {
+        border-radius: 10px;
+    }
+
+    .me-img {
+        float: right;
+        margin-top: 1em;
+    }
+
+} 

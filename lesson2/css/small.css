@@ -1,0 +1,62 @@
+header {
+	background-color: black;
+	color: white;
+	padding: 1em;
+}
+
+main {
+	background-color: white;
+	color: black;
+	display: grid;
+	grid-template-columns: 0.15fr 0.7fr 0.15fr;
+	justify-self: stretch;
+	align-self: center;
+}
+
+div {
+	justify-self: stretch;
+	align-self: center;
+	grid-column: 2 / 3;
+    justify-self: stretch;
+    border: 1px solid #ccc;
+    padding: 4px;
+    box-shadow: 5px 5px 5px #999;
+}
+}
+
+.image-example {
+	max-width: 100%;
+}
+
+header {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-family: Montserrat, Verdana, sans-serif;
+	line-height: 1.4em;
+	
+}
+
+h1 {
+	font-size: 1.95em;
+	letter-spacing: 0.04em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.4em;
+	letter-spacing: 0.02em;	
+}
+
+h3 {
+	font-size: 1em;
+	letter-spacing: 0.5em;
+}
+
+p {
+	font-family: "Noto Serif JP", Georgia, serif;
+	font-size: 0.8em;
+	letter-spacing: 0.09em;
+	line-height: 2em;
+}
