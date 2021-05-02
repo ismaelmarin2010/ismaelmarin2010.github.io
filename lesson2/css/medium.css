@@ -1,4 +1,4 @@
-@media only screen and (min-width: 45em) and (max-width: 80em) {
+@media only screen and (min-width: 32.5em) and (max-width: 80em) {
 	
 	main {
 		grid-template-columns: 0.15fr 0.35fr 0.35fr 0.35fr 0.35fr 0.15fr;
