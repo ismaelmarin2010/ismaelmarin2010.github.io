@@ -1,0 +1,96 @@
+header {
+	align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 1em;
+	color: white;
+	background-color: #0D161C;
+	border-radius: 10px;
+}
+
+main {
+	background-color: white;
+	color: black;
+	display: grid;
+	grid-template-columns: 0.15fr 0.7fr 0.15fr;
+	grid-gap: 1em;
+}
+
+div {
+	justify-self: stretch;
+	grid-column: 2 / 3;
+    border: 1px solid #ccc;
+    padding: 4px;
+    box-shadow: 5px 5px 5px #999;
+	border-radius: 10px;
+}
+}
+
+.block {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.block-title {
+	grid-row: 1 / 2;
+}
+
+.block-subtitle {
+	grid-row: 2 / 3;
+}
+
+.block-paragraph {
+	grid-row: 3 / 4;
+}
+
+.block-image {
+	grid-row: 4 / 5;
+	width: 100%;
+}
+
+header {
+	text-align: center;
+}
+
+footer {
+	border-radius: 10px;
+	background-color: #0D161C;
+	color: #FFFFFF;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 1em;
+    margin-top: 4em;
+	font-size: 1.1em;
+    line-height: 1.6em;
+    letter-spacing: 0.04em;
+}
+
+h1, h2, h3 {
+	font-family: Montserrat, Verdana, sans-serif;
+	line-height: 1.4em;
+	
+}
+
+h1 {
+	font-size: 1.95em;
+	letter-spacing: 0.04em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.4em;
+	letter-spacing: 0.02em;	
+}
+
+h3 {
+	font-size: 1em;
+	letter-spacing: 0.5em;
+}
+
+p {
+	font-family: "Noto Serif JP", Georgia, serif;
+	font-size: 0.8em;
+	letter-spacing: 0.09em;
+	line-height: 2em;
+}
