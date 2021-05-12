@@ -10,7 +10,8 @@ header {
 
 main {
 	background-color: white;
-	color: black;
+	color: black; 
+	padding: 2em;
 }
 
 /*div {
@@ -73,9 +74,9 @@ h1 {
 }
 
 h2 {
+	font-family: Montserrat, Verdana, sans-serif;
 	font-size: 1.4em;
 	letter-spacing: 0.02em;	
-	font-family: Montserrat, Verdana, sans-serif;
 	line-height: 1.4em;
 }
 
@@ -88,4 +89,56 @@ p {
 
 img {
 	max-width: 50%;
+}
+
+.pallette {
+	display: flex;
+}
+
+.pallette p {
+	flex: 1 1 100%;
+	text-align: center;
+	border-radius: 10px;
+	margin: 1em;
+}
+
+.normal-paragraph {
+	background-color: #264511;
+	color: white;
+	padding: 1em;
+}
+
+.colored-paragraph {
+	background-color: #9BDEAC;
+	color: #264511;
+	padding: 1em;
+}
+
+.color1 {
+	background-color: #264511;
+	color: white;
+}
+.color2 {
+	background-color: #636940;
+	color: white;
+}
+.color3 {
+	background-color: #59A96A;
+	color: black;
+}
+.color4 {
+	background-color: #9BDEAC;
+	color: black;
+}
+.color5 {
+	background-color: #B4E7CE;
+	color: black;
+}
+
+.headings {
+	font-family: "Open Sans",Arial,sans-serif;
+}
+
+.paragraphs {
+	font-family: "Roboto Condensed", Arial, sans-serif;
 }
