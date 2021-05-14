@@ -115,24 +115,34 @@ img {
 }
 
 .color1 {
-	background-color: #264511;
-	color: white;
+	background-color: #48484A;
+	color: #F2F2F2;
+	border: 1px outset black;
+	padding: 1em;
 }
 .color2 {
-	background-color: #636940;
-	color: white;
+	background-color: #FFFFFF;
+	color: #59A96A;
+	border: 1px outset black;
+	padding: 1em;
 }
 .color3 {
-	background-color: #59A96A;
-	color: black;
+	background-color: #FFFFFF;
+	color: #48484A;
+	border: 1px outset black;
+	padding: 1em;
 }
 .color4 {
-	background-color: #9BDEAC;
-	color: black;
+	background-color: #F2F2F2;
+	color: #20A4F3;
+	border: 1px outset black;
+	padding: 1em;
 }
 .color5 {
-	background-color: #B4E7CE;
-	color: black;
+	background-color: #F2F2F2;
+	color: #48484A;
+	border: 1px outset black;
+	padding: 1em;
 }
 
 .headings {
