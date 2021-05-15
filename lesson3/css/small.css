@@ -14,14 +14,6 @@ main {
 	padding: 2em;
 }
 
-/*div {
-	justify-self: stretch;
-    border: 1px solid #ccc;
-    padding: 4px;
-    box-shadow: 5px 5px 5px #999;
-	border-radius: 10px;
-}*/
-
 footer {
 	border-radius: 10px;
 	background-color: #0D161C;
@@ -57,13 +49,11 @@ nav ul li a {
 	text-decoration: none;
 	font-size: 0.95rem;
 }
+
 nav a:hover {
 	background-color: #0D161C;
 	color: #ffffff;
 }
-
-nav ul { display: flex; }
-nav ul li { flex: 1 1 100%; }
 
 h1 {
 	font-size: 1.95em;
@@ -91,15 +81,12 @@ img {
 	max-width: 50%;
 }
 
-.pallette {
-	display: flex;
-}
+.pallette {display: block;}
 
 .pallette p {
-	flex: 1 1 100%;
 	text-align: center;
 	border-radius: 10px;
-	margin: 1em;
+	margin: 0.5rem;
 }
 
 .color1 {
