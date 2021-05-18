@@ -1,10 +1,59 @@
-@media only screen and (min-width: 37.5em) {
-	nav ul { display: flex; }
-	nav ul li { flex: 1 1 100%; }
+@media only screen and (min-width: 35em) {
+	nav ul.responsive { 
+        display: flex; 
+        /*justify-content: center;*/
+        align-items: center;
+    }
+    nav ul.navigation { 
+        display: flex; 
+        /*justify-content: center;*/
+        align-items: center;
+    }
+	/*nav ul li { flex: 1 1 100%; }*/
 
     .pallette {display: flex;}
     .pallette p {flex: 1 1 100%;}
 
+    #header-grid {
+        display: grid;
+        grid-template-columns: 110px auto;
+    }
     
+    #logo {
+        grid-column: 1 / 2;
+        max-width: 100%;
+        margin-top: 1rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    h2 {
+        font-size: 1.9rem;
+    }
+    
+    p {
+        font-size: 1.2rem;
+    }
+
+    /*nav ul {margin-left: 2%;}*/
+
+    nav button {
+        display: none;
+    }
+
+    /*nav ul.responsive {display: block;}*/
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        font-size: 1.2rem;
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        /*padding: .6rem 1rem;*/
+    }
 
 } 
