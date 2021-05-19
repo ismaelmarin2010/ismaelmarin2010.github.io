@@ -1,18 +1,5 @@
-@media only screen and (min-width: 35em) {
-	nav ul.responsive { 
-        display: flex; 
-        /*justify-content: center;*/
-        align-items: center;
-    }
-    nav ul.navigation { 
-        display: flex; 
-        /*justify-content: center;*/
-        align-items: center;
-    }
-	/*nav ul li { flex: 1 1 100%; }*/
-
-    .pallette {display: flex;}
-    .pallette p {flex: 1 1 100%;}
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
 
     #header-grid {
         display: grid;
@@ -37,23 +24,4 @@
         font-size: 1.2rem;
     }
 
-    /*nav ul {margin-left: 2%;}*/
-
-    nav button {
-        display: none;
-    }
-
-    /*nav ul.responsive {display: block;}*/
-
-    nav ul li {
-        float: left;
-    }
-
-    nav ul li a {
-        font-size: 1.2rem;
-        border: none;
-        border-right: 1px solid rgba(0,0,0,0.3);
-        /*padding: .6rem 1rem;*/
-    }
-
-} 
+} /*end medium */

@@ -2,9 +2,12 @@
 <html lang= "en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="The Last Climate Change | Preston Town">
+		<meta name="author" content="Ismael Marin">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
 		<title>The Last Climate Change | Preston Town</title>
+		
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -12,6 +15,9 @@
 		<link rel="stylesheet" href="css/medium.css">
 		<link rel="stylesheet" href="css/large.css">
 	</head>
+
+
+
 	<body>
 		<header class="color1">
 			<div id="header-grid">
@@ -21,12 +27,11 @@
 					<p>The change is in your hands</p>
 				</div>
 			</div>
-			<nav>
+			<nav class="clearfix">
 				<button onclick="toggleMenu()">&#9776;</button>
-				<ul id="primaryNav" class="navigation responsive">
-					<!--<li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>-->
-					<li><a class="active" href="preston-4.html">Home</a></li>
-					<li><a href="preston-4.html">Preston</a></li>
+				<ul id="primaryNav" class="hide">
+					<li><a href="preston-4.html">Home</a></li>
+					<li class="active"><a href="preston-4.html">Preston</a></li>
 					<li><a href="preston-4.html">Soda Springs</a></li>
 					<li><a href="preston-4.html">Fish Haven</a></li>
 					<li><a href="preston-4.html">Storm Center</a></li>
@@ -36,10 +41,10 @@
 		</header>
 		<main>
 			<h2>Preston Idaho</h2>
-			<p class="color4">Hero Image / Weather Summary</p>
-			<p class="color2">5 Day Forecast</p>
-			<p class="color4">Article</p>
-			<p class="color2">Contact Information</p>
+			<div class="color4">Hero Image / Weather Summary</div>
+			<div class="color2">5 Day Forecast</div>
+			<div class="color4">Article</div>
+			<div class="color2">Contact Information</div>
 		</main>
 		<footer>
 			<p>&copy; The Last Climate Change | Attributions | Ismael Marin</p>
@@ -47,4 +52,6 @@
 			<script src="js/script.js"></script>
 		</footer>
 	</body>
+
+
 </html>
