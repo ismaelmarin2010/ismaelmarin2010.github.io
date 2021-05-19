@@ -101,7 +101,7 @@ nav {
 	background: -webkit-linear-gradient(top,  #064c74 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
 	background: linear-gradient(to bottom,  #064c74 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#064c74', endColorstr='#7db9e8',GradientType=0 );
-	font-family: Verdana, sans-serif;
+	font-family: "Open Sans", Arial, sans-serif;
 }
 
 nav ul {
