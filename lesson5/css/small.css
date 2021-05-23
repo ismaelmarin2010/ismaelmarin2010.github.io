@@ -47,6 +47,7 @@ footer {
 	background-color: #FFFFFF;
 	color: #295133;
 	padding: 1rem;
+	margin-top: 2rem;
 }
 .color3 {
 	background-color: #FFFFFF;
@@ -57,6 +58,7 @@ footer {
 	background-color: #F2F2F2;
 	color: #064C74;
 	padding: 1rem;
+	margin-top: 2rem;
 }
 .color5 {
 	background-color: #F2F2F2;
@@ -129,6 +131,12 @@ nav ul.hide {display: none;}
 
 
 /*---------------------- MAIN CONTENT --------------------------*/
+
+.banner {display: block;}
+
+.hide {display: none;}
+
+
 
 .hero-img, .article-img {
 	max-width: 100%;
