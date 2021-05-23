@@ -38,3 +38,8 @@ var monthNumber = date.getMonth()
 
 getFormat = `${days[dayNumber]}, ${date.getDate()} ${months[monthNumber]} ${date.getFullYear()}`;
 document.querySelector('#date').textContent = getFormat;
+
+document.querySelector('#todayPlus1').textContent = days[dayNumber+1];
+document.querySelector('#todayPlus2').textContent = days[dayNumber+2];
+document.querySelector('#todayPlus3').textContent = days[dayNumber+3];
+document.querySelector('#todayPlus4').textContent = days[dayNumber+4];
