@@ -69,6 +69,18 @@
         color: #48484A;
     }
 
+    .contact {
+        display: flex;
+    }
+
+    .map, .means {
+        display: inline;
+        flex: 1 1 0px;
+        padding: 1rem;
+    }
+
+    .map {max-width: 50%;}
+
 
 
 } /*end medium */

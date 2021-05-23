@@ -157,7 +157,7 @@ nav ul.hide {display: none;}
 
 .forecast {display: none;}
 
-
+.map {display: none;}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
