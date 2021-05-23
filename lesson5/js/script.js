@@ -54,3 +54,5 @@ if (days[dayNumber] == "Friday") {
     //And add the "banner" class to make it appear
     document.querySelector('#banner').classList.toggle("banner", true);
 }
+
+//This is a test
