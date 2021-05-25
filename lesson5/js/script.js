@@ -49,10 +49,7 @@ document.querySelector('#todayPlus4').textContent = days[dayNumber+4];
 
 //Banner coding
 if (days[dayNumber] == "Friday") {
-    //If Friday, remove the "hide" class
+    //If Friday, remove the "hide" class and add the "banner" class to make it appear
     document.querySelector('#banner').classList.toggle("hide", false);
-    //And add the "banner" class to make it appear
     document.querySelector('#banner').classList.toggle("banner", true);
 }
-
-//This is a test
