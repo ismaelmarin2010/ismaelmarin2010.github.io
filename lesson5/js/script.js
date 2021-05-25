@@ -1,6 +1,6 @@
 //Function to hide and show Menu using the hamburger button
 function toggleMenu() {
-	document.getElementById("primaryNav").classList.toggle("hide");
+	document.querySelector("#primaryNav").classList.toggle("hide");
 }
 
 
