@@ -17,7 +17,7 @@ header, .title {
 
 main {
 	background-color: #ffffff;
-	max-width: 960px;
+	max-width: 1200px;
     margin: 0 auto;
 	padding: 1em;
 }
@@ -34,7 +34,7 @@ footer {
 	font-size: 1.1em;
     line-height: 1.6em;
     letter-spacing: 0.04em;
-	max-width: 980px;
+	max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -74,7 +74,7 @@ h1 {
 	line-height: 1.4em;
 }
 
-h2 {
+h2, .temperature {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 1.4rem;
 	letter-spacing: 0.02rem;	
@@ -156,7 +156,11 @@ nav ul.hide {display: none;}
 
 .temperature {
 	margin-top: 0;
-	margin-bottom: 1rem;
+	/*margin-bottom: 1rem;*/
+}
+
+.windSpeed {
+	margin-bottom: 0;
 }
 
 #minMax, #sky, #humidity {

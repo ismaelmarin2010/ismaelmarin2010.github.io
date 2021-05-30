@@ -36,12 +36,12 @@
 			<nav class="clearfix">
 				<button onclick="toggleMenu()">&#9776;</button>
 				<ul id="primaryNav" class="hide">
-					<li><a href="preston-5.html">Home</a></li>
-					<li class="active"><a href="preston-5.html">Preston</a></li>
-					<li><a href="preston-5.html">Soda Springs</a></li>
-					<li><a href="preston-5.html">Fish Haven</a></li>
-					<li><a href="preston-5.html">Storm Center</a></li>
-					<li><a href="preston-5.html">Gallery</a></li>
+					<li><a href="preston-6.html">Home</a></li>
+					<li class="active"><a href="preston-6.html">Preston</a></li>
+					<li><a href="preston-6.html">Soda Springs</a></li>
+					<li><a href="preston-6.html">Fish Haven</a></li>
+					<li><a href="preston-6.html">Storm Center</a></li>
+					<li><a href="preston-6.html">Gallery</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -50,12 +50,16 @@
 			<h2 class="title">Preston Idaho</h2>
 
 			<div class="hero-container">
-				<img class="hero-img" src="images/prestonHeroImg.jpg" alt="Preston Landscape Image">
+				<picture>
+					<source srcset="images/franklin-1023px.jpg" media="(min-width: 560px) and (max-width: 1023px)">
+					<source srcset="images/franklin-1200px.jpg" media="(min-width: 1024px)">
+					<img class="hero-img" src="images/franklin-559px.jpg" alt="Preston Landscape Image">
+				</picture>
 				<section class="summary">
-					<h2 class="temperature">6°</h2>
-					<p id="minMax">18° / 4°</p>
-					<p id="sky">Clear Sky</p>
-					<p id="humidity">70% humidity</p>
+					<p class="temperature"><span class="temp">51</span> ° F</p>
+					<p>wc <span class="windChill"></span> ° F</p>
+					<p class="minMax">65° / 49°</p>
+					<p class="windSpeed"><span class="wind">13</span> mil/h</p>
 				</section>
 			</div>
 
@@ -63,27 +67,27 @@
 				<div class="days">
 					<p><a id="today">Today</a></p>
 					<img class="sunny-icon" src="images/sunny-icon.jpg" alt="Sunny icon">
-					<p>6°</p>
+					<p>65° / 49°</p>
 				</div>
 				<div class="days">
 					<p><a id="todayPlus1">Tuesday</a></p>
 					<img class="sunny-icon" src="images/sunny-icon.jpg" alt="Sunny icon">
-					<p>12°</p>
+					<p>65° / 49°</p>
 				</div>
 				<div class="days">
 					<p><a id="todayPlus2">Wednesday</a></p>
 					<img class="sunny-icon" src="images/sunny-icon.jpg" alt="Sunny icon">
-					<p>11°</p>
+					<p>65° / 49°</p>
 				</div>
 				<div class="days">
 					<p><a id="todayPlus3">Thursday</a></p>
 					<img class="sunny-icon" src="images/sunny-icon.jpg" alt="Sunny icon">
-					<p>14°</p>
+					<p>65° / 49°</p>
 				</div>
 				<div class="days">
 					<p><a id="todayPlus4">Friday</a></p>
 					<img class="sunny-icon" src="images/sunny-icon.jpg" alt="Sunny icon">
-					<p>15°</p>
+					<p>65° / 49°</p>
 				</div>
 			</div>
 
@@ -103,13 +107,7 @@
 					fraction of the atmosphere but exert outsized control on Earth’s climate by trapping 
 					some of the planet’s heat before it escapes into space. This greenhouse effect is important: 
 					It’s why a planet so far from the sun has liquid water and life!<br><br>
-					
-					We know this is true thanks to an overwhelming body of evidence that begins with temperature 
-					measurements taken at weather stations and on ships starting in the mid-1800s. Later, 
-					scientists began tracking surface temperatures with satellites and looking for clues about 
-					climate change in geologic records. Together, these data all tell the same story: Earth is 
-					getting hotter.<br><br>
-					
+								
 					A final note on uncertainty: Denialists often use it as evidence that climate science isn’t 
 					settled. However, in science, uncertainty doesn’t imply a lack of knowledge. Rather, it’s a 
 					measure of how well something is known. In the case of climate change, scientists have found 
@@ -139,9 +137,10 @@
 		</footer>
 
 		<script src="js/script.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
-			WebFont.load({google: {families: ['fontfamilynameofyourchoice']	} });
-		</script>
+		<script src="js/windchill.js"></script>
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+			WebFont.load({google: {families: ['Open+Sans:wght@600&display=swap', 'Roboto+Condensed:wght@300&display=swap']	} });
+		</script>-->
 	</body>
 
 
