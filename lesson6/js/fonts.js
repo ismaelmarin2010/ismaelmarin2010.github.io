@@ -1,5 +1,5 @@
-WebFontConfig = {
+WebFont.load ({
     google: {
-        families: ['Open Sans:Semi-bold 600', 'Roboto Condensed:Light 300']
+        families: ['Open Sans:Semi-Bold 600','Roboto Condensed:Light 300']
     } 
-};
+});
