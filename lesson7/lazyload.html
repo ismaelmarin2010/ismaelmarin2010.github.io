@@ -2,97 +2,49 @@
 <html lang= "en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="description" content="The Last Climate Change | Preston Town">
+		<meta name="description" content="Ismael Marin | Lazy Load">
 		<link rel="shortcut icon" href="favicon.ico">
 		<meta name="author" content="Ismael Marin">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		
-		<title>The Last Climate Change | Preston Town</title>
+		<title>Ismael Marin | Lazy Load</title>
 		
-		<!--
-			<link rel="preconnect" href="https://fonts.gstatic.com">
-			<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
-		-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-		<link rel="stylesheet" href="css/small.css">
-		<link rel="stylesheet" href="css/medium.css">
-		<link rel="stylesheet" href="css/large.css">
-
-		<script src="js/fonts.js"></script>
+		<link rel="stylesheet" href="css/lazyload.css">
 		
 	</head>
 
 	<body>
-		<div class="hide" id="banner">
-			<h2 class="color2 title">
-				Saturday = Preston Pancakes in the Park!<br>
-				9:00 a.m. Saturday at the city park pavilion.
-			</h2>
-		</div>
 
-		<header class="color1">
-			<div id="header-grid">
-				<img id="logo" src="images/logo.png" alt="The Website Logo">	
-				<div class="main-title">
-					<h1>The Last Climate Change</h1>
-					<p>The change is in your hands</p>
-				</div>
-			</div>
-			<nav class="clearfix">
-				<button onclick="toggleMenu()">&#9776;</button>
-				<ul id="primaryNav" class="hide">
-					<li><a href="gallery-7.html">Home</a></li>
-					<li><a href="lesson6/preston-6.html">Preston</a></li>
-					<li><a href="gallery-7.html">Soda Springs</a></li>
-					<li><a href="gallery-7.html">Fish Haven</a></li>
-					<li><a href="gallery-7.html">Storm Center</a></li>
-					<li class="active"><a href="gallery-7.html">Gallery</a></li>
-				</ul>
-			</nav>
+		<header>
+			<h1>Lazy Load Excercise</h1>
 		</header>
 
 		<main>
-			<h2 class="title">Weather Gallery</h2>
+			<div class="container">
+				<picture class="line1">
+					<img src="images/placeholder.jpg" data-src="images/pic1.jpg">
+				</picture>
+				<picture class="line2">
+					<img src="images/placeholder.jpg" data-src="images/pic2.jpg">
+				</picture>
+				<picture class="line3">
+					<img src="images/placeholder.jpg" data-src="images/pic3.jpg">
+				</picture>
+				<picture class="line4">
+					<img src="images/placeholder.jpg" data-src="images/pic4.jpg">
+				</picture>
+				<picture class="line5">
+					<img src="images/placeholder.jpg" data-src="images/pic5.jpg">
+				</picture>
+				<picture class="line6">
+					<img src="images/placeholder.jpg" data-src="images/pic6.jpg">
+				</picture>
+			</div>
 
-			<div id="content">
-
-				<div id="block1">
-
-				</div>
-				<div id="block2">
-					
-				</div>
-				<div id="block3">
-					
-				</div>
-				<div id="block4">
-					
-				</div>
-				<div id="block5">
-					
-				</div>
-				<div id="block6">
-					
-				</div>
-				<div id="block7">
-					
-				</div>
-				<div id="block8">
-					
-				</div>
-				<div id="block9">
-					
-				</div>
-
-			</div>	
 		</main>
 
-		<footer>
-			<p>&copy; The Last Climate Change | Attributions | Ismael Marin</p>
-			<p><a id="date"></a></p>
-		</footer>
-
-		<script src="js/script.js"></script>
+		<script src="js/lazyload.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 		<script src="js/fonts.js"></script>
 		

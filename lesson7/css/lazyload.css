@@ -1,0 +1,22 @@
+h1 {
+	font-size: 1.95rem;
+	letter-spacing: 0.04rem;
+	text-align: center;
+	font-family: "Open Sans", Arial, sans-serif;
+	line-height: 1.4em;
+}
+
+picture {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/*picture img[data-src] {
+    filter: blur(0.2em);
+}*/
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
