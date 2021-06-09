@@ -5,10 +5,6 @@ header, .title {
 }
 
 #logo {
-	max-width: 20%;
-    /*justify-self: stretch;
-    padding: .2em;
-	margin-bottom: 5px;*/
 	background-color: #48484A;
     border-radius: 35px;
     border: 1px solid #48484A;
@@ -170,6 +166,38 @@ nav ul.hide {display: none;}
 .forecast {display: none;}
 
 .map {display: none;}
+
+/*--------------- PICS CONFIGURATION -------------------*/
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 2em;
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+picture img[data-src] {
+    filter: blur(0.15em);
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+picture {
+	padding: 1rem;
+	border-style: groove;
+	border-width: 1px;
+	border-right: 0;
+	border-bottom: 0;
+}
+
+img {
+	max-width: 100%;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
