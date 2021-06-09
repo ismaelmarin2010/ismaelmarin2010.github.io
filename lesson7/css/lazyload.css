@@ -6,17 +6,20 @@ h1 {
 	line-height: 1.4em;
 }
 
+
 picture {
     display: block;
-    text-align: center;
     margin-top: 2rem;
+    text-align: center;
 }
 
-/*picture img[data-src] {
-    filter: blur(0.2em);
-}*/
-  
+picture img[data-src] {
+    filter: blur(0.5em);
+}
+
 picture img {
+    text-align: center;
     filter: blur(0em);
     transition: filter 0.5s;
 }
+
