@@ -172,7 +172,7 @@ nav ul.hide {display: none;}
 .container {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-gap: 2em;
+	grid-gap: 2rem;
 	text-align: center;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
