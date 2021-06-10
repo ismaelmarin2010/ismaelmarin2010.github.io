@@ -30,7 +30,7 @@
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 
-	picture:hover {
+	figure:hover {
 		box-shadow: 0 -3em 3em rgba(0,0,0,0.1),
 					0 0  0 2px rgb(255,255,255),
 					0.3em 0.3em 1em rgba(0,0,0,0.3);
