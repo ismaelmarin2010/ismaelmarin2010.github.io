@@ -86,6 +86,13 @@
     .map {max-width: 50%;}
 
 
+
+    form label.top input, form label.top select, form label.top textarea {
+        width: 100%;
+    }
+
+
+
     /*--------------- PICS CONFIGURATION -------------------*/
 
     .container {
