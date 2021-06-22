@@ -39,3 +39,4 @@ var monthNumber = date.getMonth()
 getFormat = `${days[dayNumber]}, ${date.getDate()} ${months[monthNumber]} ${date.getFullYear()}`;
 document.querySelector('#date').textContent = getFormat;
 
+
