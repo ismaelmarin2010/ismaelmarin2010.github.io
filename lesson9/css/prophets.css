@@ -47,6 +47,7 @@ section {
 img {
 	border-radius: 1rem;
 	margin-top: 1rem;
+	max-width: 100%;
 }
 
 p {
@@ -55,6 +56,10 @@ p {
 
 body {
 	padding: 2rem;
+}
+
+footer {
+	margin-top: 1rem;
 }
 
 /* 35em is also 560px when basefont is 16px */
