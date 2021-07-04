@@ -43,6 +43,9 @@
         padding: .4rem 0;
     }
 	
+	h2, .temperature {
+        font-size: 1.9rem;
+    }
 
 
 } /*end large */

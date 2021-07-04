@@ -2,12 +2,12 @@
 <html lang= "en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="description" content="The Last Climate Change | Preston">
+		<meta name="description" content="The Last Climate Change | Home">
 		<link rel="shortcut icon" href="favicon.ico">
 		<meta name="author" content="Ismael Marin">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		
-		<title>The Last Climate Change | Preston</title>
+		<title>The Last Climate Change | Home</title>
 		
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 		<link rel="stylesheet" href="css/small.css">
@@ -17,12 +17,6 @@
 	</head>
 
 	<body>
-		<div class="hide" id="banner">
-			<h2 class="color2 title">
-				Saturday = Preston Pancakes in the Park!<br>
-				9:00 a.m. Saturday at the city park pavilion.
-			</h2>
-		</div>
 
 		<header class="color1">
 			<div id="header-grid">
@@ -35,10 +29,10 @@
 			<nav class="clearfix">
 				<button onclick="toggleMenu()">&#9776;</button>
 				<ul id="primaryNav" class="hide">
-					<li><a href="preston-8.html">Home</a></li>
-					<li class="active"><a href="preston-8.html">Preston</a></li>
-					<li><a href="preston-8.html">Soda Springs</a></li>
-					<li><a href="preston-8.html">Fish Haven</a></li>
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="preston-8.html">Preston</a></li>
+					<li><a href="index.html">Soda Springs</a></li>
+					<li><a href="index.html">Fish Haven</a></li>
 					<li><a href="stormcenter-8.html">Storm Center</a></li>
 					<li><a href="gallery-8.html">Gallery</a></li>
 				</ul>
@@ -46,48 +40,43 @@
 		</header>
 
 		<main>
-			<h2 class="title">Preston Idaho</h2>
+			<h2 class="title">Welcome!</h2>
 
-			<div class="hero-container">
+			<div class="hero-image">
 				<picture>
-					<source srcset="images/franklin-1023px.jpg" media="(min-width: 560px) and (max-width: 1023px)">
-					<source srcset="images/franklin-1200px.jpg" media="(min-width: 1024px)">
-					<img class="hero-img" src="images/franklin-559px.jpg" alt="Preston Landscape Image">
+					<source srcset="images/Earth-Medium_1023px.jpg" media="(min-width: 560px) and (max-width: 1023px)">
+					<source srcset="images/Earth-Large_1200px.jpg" media="(min-width: 1024px)">
+					<img class="hero-img" src="images/Earth-Small_559px.jpg" alt="Preston Landscape Image">
 				</picture>
-				<section class="summary">
-					<h2 class="temperature"><span class="temp">49</span> ° F</h2>
+			</div>
+
+			<div class="boxes">
+				<section class="box">
+					<h2 class="town">Preston</h2>
+					<p class="temperature"><span class="temp">49</span> ° F</p>
 					<p>wc <span class="windChill"></span></p>
 					<p class="minMax">65° / 40°</p>
 					<p class="windSpeed"><span class="wind">3.1</span> mil/h</p>
 				</section>
+				<section class="box">
+					<h2 class="town">Soda Springs</h2>
+					<p class="temperature"><span class="temp">49</span> ° F</p>
+					<p>wc <span class="windChill"></span></p>
+					<p class="minMax">65° / 40°</p>
+					<p class="windSpeed"><span class="wind">3.1</span> mil/h</p>
+				</section>				
+				<section class="box">
+					<h2 class="town">Fish Haven</h2>
+					<p class="temperature"><span class="temp">49</span> ° F</p>
+					<p>wc <span class="windChill"></span></p>
+					<p class="minMax">65° / 40°</p>
+					<p class="windSpeed"><span class="wind">3.1</span> mil/h</p>
+				</section>
+
 			</div>
 
-			<div class="color2 forecast">
-				<div class="days">
-					<p><a id="today">Today</a></p>
-					<img class="sunny-icon" src="images/sunny-icon.jpg" alt="Sunny icon">
-					<p>65° / 49°</p>
-				</div>
-				<div class="days">
-					<p><a id="todayPlus1">Tuesday</a></p>
-					<img class="sunny-icon" src="images/sunny-icon.jpg" alt="Sunny icon">
-					<p>65° / 49°</p>
-				</div>
-				<div class="days">
-					<p><a id="todayPlus2">Wednesday</a></p>
-					<img class="sunny-icon" src="images/sunny-icon.jpg" alt="Sunny icon">
-					<p>65° / 49°</p>
-				</div>
-				<div class="days">
-					<p><a id="todayPlus3">Thursday</a></p>
-					<img class="sunny-icon" src="images/sunny-icon.jpg" alt="Sunny icon">
-					<p>65° / 49°</p>
-				</div>
-				<div class="days">
-					<p><a id="todayPlus4">Friday</a></p>
-					<img class="sunny-icon" src="images/sunny-icon.jpg" alt="Sunny icon">
-					<p>65° / 49°</p>
-				</div>
+			<div>
+				
 			</div>
 
 			<section class="color4 article">

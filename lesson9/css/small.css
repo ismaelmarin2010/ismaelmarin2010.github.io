@@ -84,6 +84,9 @@ p, form {
 	line-height: 2rem;
 }
 
+.box {
+	margin-top: 2rem;
+}
 
 /*---------------------- NAV SECTION --------------------------*/
 
@@ -139,7 +142,7 @@ nav ul.hide {display: none;}
 	box-shadow: 0 0 20px #333;
 }
 
-.summary {
+.summary, .box {
 	background: #48484A;
 	color: #fff;
 	border: 1px solid #fff;
@@ -148,6 +151,17 @@ nav ul.hide {display: none;}
 	opacity: .9;
 	text-align: center;
 	margin: auto;
+}
+
+.boxes {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	background: #48484A;
+	/*border: 1px solid #fff;*/
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #333;
+	opacity: .9;
 }
 
 .temperature {
