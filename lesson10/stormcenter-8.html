@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang= "en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="The Last Climate Change | Storm Center">
+		<link rel="shortcut icon" href="favicon.ico">
+		<meta name="author" content="Ismael Marin">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<title>The Last Climate Change | Storm Center</title>
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+		<link rel="stylesheet" href="css/small.css">
+		<link rel="stylesheet" href="css/medium.css">
+		<link rel="stylesheet" href="css/large.css">
+		
+	</head>
+
+	<body>
+		<header class="color1">
+			<div id="header-grid">
+				<img id="logo" src="images/logo.png" alt="The Website Logo">	
+				<div class="main-title">
+					<h1>The Last Climate Change</h1>
+					<p>The change is in your hands</p>
+				</div>
+			</div>
+			<nav class="clearfix">
+				<button onclick="toggleMenu()">&#9776;</button>
+				<ul id="primaryNav" class="hide">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="preston-8.html">Preston</a></li>
+					<li><a href="stormcenter-8.html">Soda Springs</a></li>
+					<li><a href="stormcenter-8.html">Fish Haven</a></li>
+					<li class="active"><a href="stormcenter-8.html">Storm Center</a></li>
+					<li><a href="gallery-8.html">Gallery</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<h2 class="title">Report a Storm!</h2>
+
+			<form method="get" action="thanks.html">
+				<fieldset>
+					<legend>Reporter</legend>
+					<label class="top">Full Name* <input type="text" name="fname" required pattern="[A-Za-z]{,5}"></label>
+					<label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+					<label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+					<label class="top">Zip Code* <input type="number" name="zipCode" required></label>
+				</fieldset>
+
+				<fieldset>
+					<legend>The Storm</legend>
+					<label class="top">Date <input type="date" name="stormDate"></label>
+					<label class="top">Type 
+					<input list="stormType" name="stormTypeSelector">
+						<datalist id="stormType">
+							<option value="Flash Flood">
+							<option value="Hail">
+							<option value="Hurricane">
+							<option value="Thunderstorm">
+							<option value="Tornado">
+						</datalist>
+					</label>
+					<label class="flexly" for="rating">Severity &nbsp;&nbsp;&nbsp;
+						<input type="range" name="severity" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+						<span id="ratingvalue">5</span>
+						<datalist id="tickmarks">
+							<option value="0">
+							<option value="1">
+							<option value="2">
+							<option value="3">
+							<option value="4">
+							<option value="5">
+							<option value="6">
+							<option value="7">
+							<option value="8">
+							<option value="9">
+							<option value="10">
+						</datalist>
+					</label>
+					<label class="top">Region  
+						<select name="region">
+							<option value="">Select Region &#9662;</option>
+							<option value="boise">Boise</option>
+							<option value="fishHaven">Fish Haven</option>
+							<option value="milesCity">Miles City</option>
+							<option value="missoula">Missoula</option>
+							<option value="pocatello">Pocatello</option>
+							<option value="preston">Preston</option>
+							<option value="sodaSprings">Soda Springs</option>
+							<option value="twinFalls">Twin Falls</option>
+						</select>
+					</label>					
+				</fieldset>
+
+				<fieldset>
+					<legend>Additional Info</legend>
+					<div>User In Danger</div>
+					<label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+					<label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+					<label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+
+					<label class="top">Comments
+						<textarea name="comments" placeholder="Tell us more!"></textarea>
+					</label>
+
+				</fieldset>
+
+				<input type="submit" value="Report My Storm!" class="submitBtn">
+
+			</form>
+
+
+		</main>
+
+		<footer>
+			<p>&copy; The Last Climate Change | Attributions | Ismael Marin</p>
+			<p><a id="date"></a></p>
+		</footer>
+
+		<script src="js/script.js"></script>
+		<script src="js/stormcenter.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+		<script src="js/fonts.js"></script>
+		
+	</body>
+
+
+</html>
