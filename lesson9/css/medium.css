@@ -55,7 +55,12 @@
     .towns section:nth-child(even) p, .towns section:nth-child(even) h2 {
         grid-column: 3;
         text-align: center;
-     }
+    }
+
+    .boxes {
+        padding: 1rem;
+        grid-gap: 0.8rem;
+    }
 
 
     /*.towns section p {padding: .75rem;}*/

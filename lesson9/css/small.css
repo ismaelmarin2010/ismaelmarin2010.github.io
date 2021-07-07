@@ -34,6 +34,8 @@ footer {
     margin: 0 auto;
 }
 
+.color4 .contact .means {text-align: center;}
+
 .color1 {
 	background-color: #48484A;
 	color: #F2F2F2;
@@ -205,19 +207,14 @@ nav ul.hide {display: none;}
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	background: #48484A;
-	padding: 1rem;
 	box-shadow: 0 0 30px #333;
 	opacity: .9;
-	grid-gap: 0.8rem;
 }
 
 .box1 {grid-column: 1;}
 .box2 {grid-column: 2;}
 .box3 {grid-column: 3;}
 
-.towns {
-	
-}
 
 /*--------------- MAIN PAGE ENDS ----------------*/
 
