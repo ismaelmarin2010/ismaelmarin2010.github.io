@@ -11,11 +11,12 @@ fetch(requestURL) // Feed the fetch() method with the URL.
         
         console.table(jsonObject);  // Temporary checking for valid response and data parsing
         const towns = jsonObject['towns'];
-        const j = 0;
+        let j = 0;
 
         for ( let i = 0; i < towns.length; i++ ) {
             
-            if (towns[i].name == "Soda Springs" or towns[i].name == "Fish Haven" or towns[i].name == "Preston") {
+            if (towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven" || towns[i].name == "Preston") {
+
                 // Create an empty card section for each prophet and start filling it
                 let card = document.createElement('section');
                 
@@ -27,6 +28,7 @@ fetch(requestURL) // Feed the fetch() method with the URL.
                 // Add the motto
                 let motto = document.createElement('p');
                 motto.textContent = `${towns[i].motto}`;
+                motto.setAttribute('class', `motto`);
                 card.appendChild(motto);
                 
                 // Add the year it was founded
@@ -54,7 +56,6 @@ fetch(requestURL) // Feed the fetch() method with the URL.
 
                 j++
             }
-
         }
     });
 
