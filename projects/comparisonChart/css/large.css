@@ -1,0 +1,28 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+	.container .col1 {
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	.container .header .title {
+		font-size: 13px;
+		line-height: 16.25px;
+	}
+
+	.container .header .subtitle {
+		font-size: 9px;
+		line-height: 11.25px;
+	}
+
+	.info p {
+		font-size: 10px;
+		line-height: 12.5px;
+	}
+
+	body {
+		background-color: red;
+	}
+
+}
