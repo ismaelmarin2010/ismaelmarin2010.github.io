@@ -1,6 +1,7 @@
-@media only screen and (min-width: 515px) {
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
 
-	.container .col1 {
+ 	.container .col1 {
 		font-size: 12px;
 		line-height: 15px;
 	}
@@ -20,8 +21,4 @@
 		line-height: 12.5px;
 	}
 
-	.container {
-		max-width: 726px;
-	}
-
-}
+} /*end medium */

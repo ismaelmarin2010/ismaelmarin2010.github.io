@@ -1,0 +1,77 @@
+.container .col1 {
+	grid-column:1;
+	font-size: 9px;
+	line-height: 12px;
+	text-align:right;
+	padding:2rem 2rem 2rem 0.5rem;
+	margin:-3px 0 0;
+}
+
+.container .header .title {
+	font-size: 10px;
+	line-height: 13.25px;
+	margin:0;
+}
+
+.container .header .subtitle {
+	font-size: 6px;
+	line-height: 8.25px;
+}
+
+.info p {
+	font-size: 7px;
+	line-height: 9.5px;
+	margin-top: 0;
+}
+
+.gradientline {
+	grid-column:1/6;
+	grid-row:2;
+	margin:-4px 0 0;
+	background: rgb(70,201,193);
+	background: linear-gradient(90deg, rgba(70,201,193,1) 0%, rgba(110,199,97,1) 100%);
+	padding:0.3rem;
+}
+
+.dashedline {
+	grid-column:1/6;
+	margin:-3px 0 0;
+	border-top-style: dashed;
+	border-top-color: rgb(70,201,193);
+	border-top-width: 2px;
+}
+
+.container {
+	max-width: 726px;
+	min-width: 320px;
+	/*margin: auto;*/
+	font-family: "Open Sans", "Calibri", "Trebuchet MS", sans-serif;
+	display:grid; 
+	grid-template-columns: 1.2fr repeat(4,1fr);
+	position:relative;
+	grid-gap:3px;
+}
+
+.container .header {
+	margin:1.25rem 0 0;
+	text-align:center;
+	padding:0.8rem
+}
+
+img[src="https://ismaelmarin2010.github.io/projects/comparisonChart/images/cross-mark.png"] {
+	max-width: 18px;
+}
+
+img[src="https://ismaelmarin2010.github.io/projects/comparisonChart/images/check-mark.png"] {
+	max-width: 20px;
+}
+
+.info {
+	margin:-4px 0 0;
+	text-align:center;
+	padding:1rem 0.5rem 0.5rem 0.5rem;
+}
+
+.container .sec1 {background-color:#F4F5F8;}
+
+.container .sec2 {background-color:#92CD3F2E;}
