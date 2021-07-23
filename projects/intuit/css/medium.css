@@ -1,6 +1,8 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
 
+	/*---------------- COMPARISON CHART (start) --------------------*/
+
  	.container .col1 {
 		font-size: 12px;
 		line-height: 15px;
@@ -28,5 +30,27 @@
 	img[src="https://ismaelmarin2010.github.io/projects/intuit/images/check-mark.png"] {
 		max-width: 20px;
 	}
+
+	/*------------------ COMPARISON CHART (end) ---------------------*/
+
+
+	/*----------------------- BOXES (start) -------------------------*/
+	.box {
+		grid-gap: 0.6rem;
+	}
+	
+	.left h2, .right h2 {
+		font-size: 19px;
+		line-height: 125%;
+	}
+	
+	.left p, .right p {
+		font-size: 15px;
+		line-height: 125%;
+		padding: 1rem 1.5rem 1rem 1.5rem;
+	}
+
+
+	/*------------------------ BOXES (end) --------------------------*/
 
 } /*end medium */
