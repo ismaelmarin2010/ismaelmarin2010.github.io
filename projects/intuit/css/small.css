@@ -1,15 +1,14 @@
 @font-face {
-    font-family: GraublauWeb;
-    src: url("path/GraublauWeb.otf") format("opentype");
+    font-family: AvenirNextforINTUIT;
+    src: url("https://ismaelmarin2010.github.io/projects/intuit/fonts/AvenirNextforINTUIT-Medium.otf") format("opentype");
 }
 
 @font-face {
-    font-family: GraublauWeb;
-    font-weight: bold;
-    src: url("path/GraublauWebBold.otf") format("opentype");
+    font-family: AvenirNextforINTUIT;
+    src: url("https://ismaelmarin2010.github.io/projects/intuit/fonts/AvenirNextforINTUIT-Bold.otf") format("opentype");
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
 .container .col1 {
 	grid-column:1;
@@ -38,11 +37,11 @@
 }
 
 img[src="https://ismaelmarin2010.github.io/projects/intuit/images/cross-mark.png"] {
-	max-width: 16px;
+	max-width: 15px;
 }
 
 img[src="https://ismaelmarin2010.github.io/projects/intuit/images/check-mark.png"] {
-	max-width: 18px;
+	max-width: 17px;
 }
 
 .gradientline {
@@ -56,21 +55,31 @@ img[src="https://ismaelmarin2010.github.io/projects/intuit/images/check-mark.png
 
 .dashedline {
 	grid-column:1/6;
-	margin:-3px 0 0;
+	margin:-2px 0 0;
 	border-top-style: dashed;
 	border-top-color: rgb(70,201,193);
-	border-top-width: 2px;
+	border-top-width: 1px;
 }
 
 .container {
 	max-width: 726px;
 	min-width: 320px;
 	/*margin: auto;*/
-	font-family: "AvenirNextMedium",/* "Open Sans", "Calibri", "Trebuchet MS",*/ sans-serif;
+	font-family: "AvenirNextforINTUIT", "Open Sans", sans-serif;
 	display:grid; 
 	grid-template-columns: 1.2fr repeat(4,1fr);
 	position:relative;
-	grid-gap:3px;
+	grid-gap:2px;
+}
+
+h2 {
+	font-style: normal;
+	font-weight: bold;
+}
+
+p {
+	font-style: normal;
+	font-weight: normal;
 }
 
 .container .header {
@@ -80,7 +89,7 @@ img[src="https://ismaelmarin2010.github.io/projects/intuit/images/check-mark.png
 }
 
 .info {
-	margin:-4px 0 0;
+	margin:-3px 0 0;
 	text-align:center;
 	padding:1rem 0.5rem 0.5rem 0.5rem;
 }
