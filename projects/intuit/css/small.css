@@ -1,10 +1,10 @@
 @font-face {
-    font-family: AvenirNextforINTUIT;
+    font-family: AvenirNextforINTUIT-Normal;
     src: url("https://ismaelmarin2010.github.io/projects/intuit/fonts/AvenirNextforINTUIT-Medium.otf") format("opentype");
 }
 
 @font-face {
-    font-family: AvenirNextforINTUIT;
+    font-family: AvenirNextforINTUIT-Bold;
     src: url("https://ismaelmarin2010.github.io/projects/intuit/fonts/AvenirNextforINTUIT-Bold.otf") format("opentype");
 }
 
@@ -65,7 +65,6 @@ img[src="https://ismaelmarin2010.github.io/projects/intuit/images/check-mark.png
 	max-width: 726px;
 	min-width: 320px;
 	/*margin: auto;*/
-	font-family: "AvenirNextforINTUIT", "Open Sans", sans-serif;
 	display:grid; 
 	grid-template-columns: 1.2fr repeat(4,1fr);
 	position:relative;
@@ -73,11 +72,13 @@ img[src="https://ismaelmarin2010.github.io/projects/intuit/images/check-mark.png
 }
 
 h2 {
+	font-family: "AvenirNextforINTUIT-Bold", "Open Sans", sans-serif;
 	font-style: normal;
 	font-weight: bold;
 }
 
 p {
+	font-family: "AvenirNextforINTUIT-Normal", "Open Sans", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 }
