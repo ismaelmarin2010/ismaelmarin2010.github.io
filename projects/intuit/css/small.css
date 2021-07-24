@@ -8,6 +8,11 @@
     src: url("https://ismaelmarin2010.github.io/projects/intuit/fonts/AvenirNextforINTUIT-Bold.otf") format("opentype");
 }
 
+@font-face {
+    font-family: AvenirNextforINTUIT-Italic;
+    src: url("https://ismaelmarin2010.github.io/projects/intuit/fonts/AvenirNextforINTUIT-Italic.otf") format("opentype");
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
 
@@ -157,6 +162,10 @@ p, .list {
 
 .list {
 	padding-bottom: 1rem;
+}
+
+.italic {
+	font-family: "AvenirNextforINTUIT-Italic", "Open Sans", sans-serif;
 }
 
 /*------------------------ BOXES (end) --------------------------*/
