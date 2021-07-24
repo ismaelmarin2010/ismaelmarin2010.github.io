@@ -78,7 +78,7 @@ h2 {
 	font-weight: bold;
 }
 
-p {
+p, .list {
 	font-family: "AvenirNextforINTUIT-Normal", "Open Sans", sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -138,14 +138,25 @@ p {
     border-bottom-color: #6EB435;
 }
 
-
-.left p, .right p {
+.left p, .right p, .list {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 11px;
 	line-height: 125%;
 	text-align: left;
-	padding: .8rem 0.7rem .8rem 0.7rem;
 	margin: 0;
 }
+
+.left p, .right p {
+	padding: .8rem 0.7rem 1rem 0.7rem;
+}
+
+.list li {
+	padding: 0;
+}
+
+.list {
+	padding-bottom: 1rem;
+}
+
 /*------------------------ BOXES (end) --------------------------*/
