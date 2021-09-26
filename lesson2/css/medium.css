@@ -1,0 +1,23 @@
+@media only screen and (min-width: 32.5em) and (max-width: 80em) {
+	
+	main {
+		grid-template-columns: 0.15fr 0.35fr 0.35fr 0.35fr 0.35fr 0.15fr;
+		grid-gap: 2em;
+	}
+	
+	#block1 {
+		grid-column: 2 / 4;
+		grid-row: 2 / 3;
+	}
+	
+	#block2 {
+		grid-column: 4 / 6;
+		grid-row: 2 / 3;
+	}
+	
+	#block3 {
+		grid-column: 3 / 5;
+		grid-row: 3 / 4;
+	}
+
+} 
