@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang= "en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="The Last Climate Change | Preston Town">
+		<link rel="shortcut icon" href="favicon.ico">
+		<meta name="author" content="Ismael Marin">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<title>The Last Climate Change | Preston Town</title>
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+		<link rel="stylesheet" href="css/small.css">
+		<link rel="stylesheet" href="css/medium.css">
+		<link rel="stylesheet" href="css/large.css">
+	</head>
+
+	<body>
+		<div class="hide" id="banner">
+			<h2 class="color2 title">
+				Saturday = Preston Pancakes in the Park!<br>
+				9:00 a.m. Saturday at the city park pavilion.
+			</h2>
+		</div>
+
+		<header class="color1">
+			<div id="header-grid">
+				<img id="logo" src="images/logo.png" alt="The Website Logo">	
+				<div class="main-title">
+					<h1>The Last Climate Change</h1>
+					<p>The change is in your hands</p>
+				</div>
+			</div>
+			<nav class="clearfix">
+				<button onclick="toggleMenu()">&#9776;</button>
+				<ul id="primaryNav" class="hide">
+					<li><a href="preston-5.html">Home</a></li>
+					<li class="active"><a href="preston-5.html">Preston</a></li>
+					<li><a href="preston-5.html">Soda Springs</a></li>
+					<li><a href="preston-5.html">Fish Haven</a></li>
+					<li><a href="preston-5.html">Storm Center</a></li>
+					<li><a href="preston-5.html">Gallery</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<h2 class="title">Preston Idaho</h2>
+
+			<div class="hero-container">
+				<img class="hero-img" src="images/prestonHeroImg.jpg" alt="Preston Landscape Image">
+				<section class="summary">
+					<h2 class="temperature">6°</h2>
+					<p id="minMax">18° / 4°</p>
+					<p id="sky">Clear Sky</p>
+					<p id="humidity">70% humidity</p>
+				</section>
+			</div>
+
+			<div class="color2 forecast">
+				<div class="days">
+					<p><a id="today">Today</a></p>
+					<img class="sunny-icon" src="images/sunny-icon.jpg" alt="Sunny icon">
+					<p>6°</p>
+				</div>
+				<div class="days">
+					<p><a id="todayPlus1">Tuesday</a></p>
+					<img class="sunny-icon" src="images/sunny-icon.jpg" alt="Sunny icon">
+					<p>12°</p>
+				</div>
+				<div class="days">
+					<p><a id="todayPlus2">Wednesday</a></p>
+					<img class="sunny-icon" src="images/sunny-icon.jpg" alt="Sunny icon">
+					<p>11°</p>
+				</div>
+				<div class="days">
+					<p><a id="todayPlus3">Thursday</a></p>
+					<img class="sunny-icon" src="images/sunny-icon.jpg" alt="Sunny icon">
+					<p>14°</p>
+				</div>
+				<div class="days">
+					<p><a id="todayPlus4">Friday</a></p>
+					<img class="sunny-icon" src="images/sunny-icon.jpg" alt="Sunny icon">
+					<p>15°</p>
+				</div>
+			</div>
+
+			<section class="color4 article">
+				<img class="article-img" src="images/pexels-markus-spiske-2990650.jpg" 
+				alt="protester holding sign 'there is no planet b'">
+				<h2>The Science of Climate Change Explained</h2>
+				<p>
+					By Julia Rosen<br><br>
+					
+					The science of climate change is more solid and widely agreed upon than you might think. 
+					But the scope of the topic, as well as rampant disinformation, can make it hard to 
+					separate fact from fiction. Here, we’ve done our best to present you with not only the 
+					most accurate scientific information, but also an explanation of how we know it.<br><br>
+					For more than a century, scientists have understood the basic physics behind why 
+					greenhouse gases like carbon dioxide cause warming. These gases make up just a small 
+					fraction of the atmosphere but exert outsized control on Earth’s climate by trapping 
+					some of the planet’s heat before it escapes into space. This greenhouse effect is important: 
+					It’s why a planet so far from the sun has liquid water and life!<br><br>
+					
+					We know this is true thanks to an overwhelming body of evidence that begins with temperature 
+					measurements taken at weather stations and on ships starting in the mid-1800s. Later, 
+					scientists began tracking surface temperatures with satellites and looking for clues about 
+					climate change in geologic records. Together, these data all tell the same story: Earth is 
+					getting hotter.<br><br>
+					
+					A final note on uncertainty: Denialists often use it as evidence that climate science isn’t 
+					settled. However, in science, uncertainty doesn’t imply a lack of knowledge. Rather, it’s a 
+					measure of how well something is known. In the case of climate change, scientists have found 
+					a range of possible future changes in temperature, precipitation and other important variables 
+					— which will depend largely on how quickly we reduce emissions. But uncertainty does not 
+					undermine their confidence that climate change is real and that people are causing it.<br><br>
+					
+					<a target="_blank" href="https://www.nytimes.com/article/climate-change-global-warming-faq.html">NYTimes.com</a>
+				</p>
+			</section>
+			
+			<section class="color2">
+				<h2 class="title">Contact Us!</h2>
+				<div class="contact">
+					<img class="map" src="images/prestonMap.jpg" alt="Preston Map">
+					<div class="means">
+						<p>&#x1F4F1; | 123-456-789</p>
+						<p>&#x1F4E7; | info@thelastclimatechange.com</p>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<p>&copy; The Last Climate Change | Attributions | Ismael Marin</p>
+			<p><a id="date"></a></p>
+			<script src="js/script.js"></script>
+		</footer>
+	</body>
+
+
+</html>
